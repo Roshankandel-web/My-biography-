@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Bio Data</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container{
+            width: 700px;
+            margin: 30px auto;
+            border: 2px solid black;
+            padding: 20px;
+            background-color: white;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+        .photo-box{
+            width: 150px;
+            height: 180px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td{
+            padding: 8px;
+        }
+        .label{
+            width: 150px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Personal Bio Data</h2>
+
+    <div class="photo-box">Photo</div>
+
+    <table>
+        <tr><td class="label">Name</td><td>: Roshan Kandel </td></tr>
+        <tr><td class="label">Father's Name</td><td>: Hari Kandel</td></tr>
+        <tr><td class="label">Mother's Name</td><td>: Tara Kandel</td></tr>
+        <tr><td class="label">Date of Birth</td><td>: 2065-10-22</td></tr>
+        <tr><td class="label">Gender</td><td>: Male</td></tr>
+        <tr><td class="label">Nationality</td><td>: Nepali</td></tr>
+        <tr><td class="label">Address</td><td>: Rampur-5, Palpa</td></tr>
+        <tr><td class="label">Email</td><td>: roshankandel246@gmail.com </td></tr>
+    </table>
+
+</div>
+
+</body>
+</html>
